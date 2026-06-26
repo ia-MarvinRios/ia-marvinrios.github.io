@@ -1,0 +1,63 @@
+/* ABOUT-MYSELF*/
+.about-myself{
+    display: flex;
+    gap: 1rem;
+    padding: 100px 0px 50px 0px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-myself_image{
+    padding-top: 1rem;
+    display: block;
+    justify-self: center;
+}
+
+.about-myself_image img{
+    width: 400px;
+}
+
+.about-myself_lore{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    gap: 1rem;
+    color: #fff;
+    text-align: left;
+}
+
+.about-myself_lore h1{
+    color: #2ecc71;
+    font-size: 3rem;
+}
+
+.about-myself_lore p{
+    margin-top: 1rem;
+    line-height: var(--line-height);
+    font-weight: 300;
+}
+
+.about-myself_lore hr{
+    border: none;
+    height: 1px;
+    background-color: rgb(255, 255, 255, 0.2);
+    margin-top: auto;
+}
+
+/*SOCIALS LIST*/
+.socials-container{
+    display: grid;
+    margin-top: auto;
+}
+
+.socials-list{
+    list-style: none;
+    display: inline-flex;
+    gap: 3rem;
+    margin: 0 auto;
+    padding: 10px 10px 0px 10px;
+    
+}
+
+.socials-list li{
+    padding: 8px;
+}

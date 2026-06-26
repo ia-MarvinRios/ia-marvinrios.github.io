@@ -1,0 +1,38 @@
+/* HANDLED TECHNOLOGIES*/
+.handled-technologies{
+    display: grid;
+    gap: 1rem;
+    padding: 0;
+    background-color: #17202a9d;
+    border-radius: 15px;
+}
+
+.technologies-title{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.technologies-container{
+    display: grid;
+    padding-bottom: 50px;
+}
+
+.technologies-list{
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    padding: 0;
+    gap: 5rem;
+}
+
+.technologies-title hr{
+    border: none;
+    height: 1px;
+    background-color: rgb(255, 255, 255, 0.2);
+    margin-top: auto;
+}

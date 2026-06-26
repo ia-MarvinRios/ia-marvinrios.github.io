@@ -1,0 +1,37 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    min-height: 51px;
+    max-height: 101px;
+    position: fixed;
+    top: -1px;
+    left: 0;
+    display: grid;
+}
+
+.hero--hide{
+    display: var(--show, none);
+}
+
+.nav{
+    --padding-container: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #17202a9d;
+    border: 1px solid rgba(255, 255, 255, 0.158);
+}
+
+.nav_name{
+    font-weight: 300;
+    color: #fff;
+}
+
+.nav_image{
+    padding: 0 10px;
+}
+
+.nav_image img{
+    width: 60px;
+    border-radius: 5px;
+}
