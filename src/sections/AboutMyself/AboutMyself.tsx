@@ -1,5 +1,5 @@
 import './AboutMyself.css'
-import profilePicFront from '../../assets/profilepicture-front.png'
+import profilePicFront from '../../assets/profilepicture-front.webp'
 import mailSvg from '../../assets/svg/mail.svg'
 import spotifySvg from '../../assets/svg/spotify.svg'
 import instagramSvg from '../../assets/svg/instagram.svg'
