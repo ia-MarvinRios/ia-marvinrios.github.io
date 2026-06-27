@@ -1,6 +1,7 @@
 import Header from '../sections/Header/Header'
 import AboutMyself from '../sections/AboutMyself/AboutMyself'
 import TechnologiesPanel from '../sections/TechnologiesPanel/TechnologiesPanel'
+import Projects from '../sections/Projects/Projects'
 import PythonIcon from '../assets/svg/python.svg'
 import HTMLIcon from '../assets/svg/html5.svg'
 import CSSIcon from '../assets/svg/css.svg'
@@ -21,6 +22,7 @@ function MainPage() {
       <Header/>
       <AboutMyself/>
       <TechnologiesPanel icons={technologiesIcons}/>
+      <Projects/>
 
     </>
   )

@@ -1,0 +1,22 @@
+.projects-section{
+    padding: 3rem 0 2rem 0; /*arriba, derecha, abajo, izquierda*/
+    text-align: center;
+}
+
+#section-title{
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.project-list{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgb(255, 255, 255, 0.2);
+    margin-top: auto;
+}
